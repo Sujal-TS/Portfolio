@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sujal T S</title>
+    <link rel="icon" href="https://i.ibb.co/zRsTj3p/Frame-1-37.png" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      class="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-------------------------- Header Area -------------------------->
+    <header class="header-area">
+      <div class="container">
+        <div class="header">
+          <a href="" class="logo">
+            <img src="files/signaturecropped.png" alt="" class="signature" />
+            <i class="fa fa-bolt"></i>
+          </a>
+
+          <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <div class="menu_icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-------------------------- Home Page -------------------------->
+    <div class="FirstElement" id="home">
+      <div class="profile-photo">
+        <img src="files/Sujal.jpg" alt="profile picture" />
+      </div>
+      <div class="profile-text">
+        <h5>Hi I'm</h5>
+        <br />
+        <h1>Sujal T S</h1>
+        <br />
+        <p>
+          Welcome to my portfolio, I'm an aspiring software engineer with a deep
+          passion for problem-solving and real-world innovation. With a strong
+          foundation in Data Structures and Algorithms, I thrive on tackling
+          complex challenges through code. I’ve worked on impactful AI/ML
+          projects in areas like natural language processing, computer vision,
+          and neural architecture search, contributing to cutting-edge research
+          and building practical solutions. I’m driven by the goal of creating
+          technology that makes a meaningful difference in the world.
+        </p>
+
+        <div class="btn-group">
+          <a href="files/Sujal_T_S.pdf" class="btn active">Download CV</a>
+          <a href="mailto:sujal2004ts@gmail.com" class="btn">Contact</a>
+        </div>
+
+        <div class="social">
+          <a href="mailto:sujal2004ts@gmail.com"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a href="https://github.com/Sujal-TS"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://leetcode.com/u/Sujalts/"
+            ><i class="fa fa-code"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/sujal-t-s/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <section class="about-area" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about-content">
+            <h4>About Me</h4>
+            <ul>
+              <li>
+                I am currently pursuing my Bachelor's degree in Computer Science
+                and Engineering with a specialization in Artificial Intelligence
+                at KLE Technological University.
+              </li>
+              <li>
+                I have a strong foundation in Data Structures and Algorithms,
+                consistently honing my problem-solving skills on platforms like
+                LeetCode.
+              </li>
+              <li>
+                Alongside DSA, I’ve worked on impactful real-world projects in
+                AI/ML, including NLP, computer vision, and neural architecture
+                search, with some research contributions accepted at
+                international conferences.
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-skills">
+            <ul>
+              <li>Name: Sujal T S</li>
+              <li>Age: 21</li>
+              <li>From: India</li>
+              <li>Email: sujal2004ts@gmail.com</li>
+              <li>Experience &lt;1yr</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------- Education & Internship -------------->
+    <section class="education-content" id="education">
+      <div class="container">
+        <div class="row">
+          <div class="education">
+            <h3 class="title">Education</h3>
+            <div class="row">
+              <div class="timeline-box">
+                <div class="timeline">
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">B.E CSE-AI - 8.5 CGPA</h3>
+                    <h4 class="timeline-title">
+                      KLE Technological Universirty
+                    </h4>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> 2022-2026
+                    </h4>
+                  </div>
+                  <!-- Timeline-item -->
+                  <div class="timeline-item">
+                    <div class="circle-dot"></div>
+                    <h3 class="timeline-title">PUC - 96%</h3>
+                    <h4 class="timeline-title">PACE um pu college</h4>
+                    <h4 class="timeline-title">
+                      <i class="fa fa-calendar"></i> 2020-2022
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- Projects -------------------------->
+    <section class="project-content" id="projects">
+      <div class="container">
+        <div class="project-title">
+          <h4>My Projects</h4>
+          <p>Discover my projects, where creativity meets innovation</p>
+        </div>
+        <div class="projects">
+          <!-- 1st Project -->
+          <div class="project">
+            <i class="fa fa-coffee"></i>
+            <h4>Kannada Paraphrase Generation (KnParaphraser)</h4>
+            <p>
+              Developed a Kannada paraphrasing model Kn-T5 using data
+              augmentation. Created and released KanPara (100k sentence corpus)
+              using backtranslation with NLLB-200. Published on Springer and
+              Hugging Face. Achieved BLEU score: 0.1967, similarity: 0.8133.
+            </p>
+          </div>
+          <!-- 2nd Project -->
+          <div class="project">
+            <i class="fa fa-car"></i>
+            <h4>Neural Architecture Search for Image Deblurring:</h4>
+            <p>
+              Designed genetic encoding, decoding, crossover (Uniform + SBX),
+              and mutation operators. Used NSGA-II to balance PSNR and FLOPs.
+              Currently evaluating on the GoPro dataset.
+            </p>
+          </div>
+          <!-- 3rd Project -->
+          <div class="project">
+            <i class="fa fa-desktop"></i>
+            <h4>Women Employment Web Portal:</h4>
+            <p>
+              Built a full-stack AI-powered job portal with Node.js and OpenAI.
+              Implemented NLP-based job matching using LinkedIn API. Improved
+              accuracy by 30%, tested with Selenium, and optimized backend speed
+              by 30%.
+            </p>
+          </div>
+
+          <div class="project">
+            <i class="fa fa-desktop"></i>
+            <h4>
+              Knee Arthritis Detection using X-rays with Explainable AI (XAI):
+            </h4>
+            <p>
+              Used OAI dataset with 9,786 X-rays. Developed KL grade classifier.
+              Integrated Grad-CAM for interpretability. Working on quantization
+              and mobile deployment with TensorFlow Lite.
+            </p>
+          </div>
+
+          <div class="project">
+            <i class="fa fa-language"></i>
+            <h4>
+              Neural Machine Translation for Kannada-to-Dravidian Languages
+            </h4>
+            <p>
+              Built high-quality parallel corpora for Kannada-Tamil,
+              Kannada-Telugu, and Kannada-Malayalam translations. Applied
+              IndicSBERT filtering, and fine-tuned mT5 for accurate multilingual
+              translations. Contributing to low-resource NLP research.
+            </p>
+          </div>
+          <!-- 6th Project -->
+          <div class="project">
+            <i class="fa fa-map-marker-alt"></i>
+            <h4>Tourist City Management using DSA</h4>
+            <p>
+              Implemented graph algorithms (Dijkstra’s, DFS, Prim’s) for
+              transport and emergency services. Designed data structures to
+              manage city layouts, commercial hubs, and attractions. Developed a
+              parking and taxi dispatch system with Rabin-Karp for efficient
+              text-based search.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="about-content"
+      style="text-align: center; max-width: 800px; margin: 0 auto"
+    >
+      <h4>SKILLS</h4>
+      <ul style="list-style: none; padding: 0">
+        <li><strong>Languages:</strong> C++, Python, Java, JavaScript, C</li>
+        <li>
+          <strong>Web Development:</strong> HTML, CSS, Node.js, Express.js
+        </li>
+        <li>
+          <strong>Frameworks & Tools:</strong> PyTorch, TensorFlow, OpenCV,
+          MySQL, Git, Selenium, NLTK, Pymoo
+        </li>
+        <li>
+          <strong>Core Areas:</strong> Data Structures and Algorithms, AI/ML,
+          NLP, Computer Vision
+        </li>
+        <li>
+          <strong>Soft Skills:</strong> Problem-Solving, Research,
+          Collaboration, Communication, Rapid Learning
+        </li>
+      </ul>
+    </div>
+
+    <section class="project-content" id="projects">
+      <div class="container">
+        <div class="project-title">
+          <h4>Why Amazon ?</h4>
+        </div>
+        <div class="projects">
+          <!-- 1st Project -->
+          <div class="project">
+            <i class="fa fa-coffee"></i>
+            <h4>Prime Day Scalability & AWS</h4>
+            <p>
+              One of the major challenges Amazon faces during Prime Day is
+              handling extreme spikes in traffic and transactions. To tackle
+              this, Amazon leverages AWS Auto Scaling, Load Balancers, and a
+              robust microservices architecture that ensures seamless
+              scalability and high availability. Even under 100x normal traffic,
+              systems remain responsive and resilient, delivering a frictionless
+              experience to millions of users worldwide. I’m truly inspired by
+              how Amazon handles infrastructure at such a scale. It motivates me
+              to deepen my understanding of distributed systems, backend
+              optimization, and scalable cloud solutions—skills I actively
+              explore in my learning journey.
+            </p>
+          </div>
+
+          <!-- 2nd Project -->
+          <div class="project">
+            <i class="fa fa-car"></i>
+            <h4>Alexa and Natural Language Understanding</h4>
+            <p>
+              Alexa, Amazon’s voice assistant, is a prime example of innovation
+              in natural language processing. Building a conversational
+              assistant that understands and responds naturally involves complex
+              deep learning models, NLU pipelines, and context-aware dialogue
+              management. Amazon’s success with Alexa has made it one of the
+              most widely used smart assistants globally. As someone who has
+              worked on NLP-based Kannada paraphrasing and multilingual AI
+              models, I deeply relate to this vision. My projects align with
+              Amazon's mission to create inclusive, intelligent systems that can
+              understand and serve users across diverse languages and contexts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- About Section -------------------------->
+
+    <!-------------------------- Contact Me -------------------------->
+
+    <section class="contact-content" id="contact">
+      <div class="container">
+        <div class="contact-title">
+          <h4>Contact Me</h4>
+          <p>Get In Touch</p>
+        </div>
+        <div class="contact">
+          <form name="submitToGoogleSheet">
+            <input type="text" name="NAME" placeholder="Name" required />
+            <input type="email" name="EMAIL" placeholder="Email" required />
+            <input type="text" name="SUBJECT" placeholder="Subject" />
+            <textarea name="MESSAGE" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" class="submit" />
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-------------------------- JS -------------------------->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
+    <!-------------------------- Footer section -------------------------->
+    <footer class="footer">
+      <small class="message"
+        >“The only way to do great work is to love what you do.” – Steve
+        Jobs</small
+      >
+      <small class="copyright"
+        >&copy; Copyright 2025. All rights reserved.</small
+      >
+    </footer>
+  </body>
+</html>
